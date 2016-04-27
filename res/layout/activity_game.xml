@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout doorway:id="@id/root" doorway:background="#000000" doorway:layout_width="-1" doorway:layout_height="-1"
+    <RelativeLayout doorway:id="@id/game_over" doorway:background="@color/pocket_red" doorway:visibility="2" doorway:layout_width="-1" doorway:layout_height="-1">
+        <TextView doorway:textSize="@dimen/game_over_title" doorway:textColor="#000000" doorway:gravity="11" doorway:id="@id/game_over_title" doorway:layout_width="-2" doorway:layout_height="-2" doorway:text="@string/game_over" doorway:layout_centerInParent="true" />
+        <TextView doorway:textSize="@dimen/game_over_text" doorway:textColor="#000000" doorway:gravity="11" doorway:id="@id/game_over_reason" doorway:paddingLeft="30dp" doorway:paddingRight="30dp" doorway:layout_width="-2" doorway:layout_height="-2" doorway:layout_below="@id/game_over_title" doorway:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout doorway:id="@id/victory" doorway:background="@color/pocket_green" doorway:visibility="2" doorway:layout_width="-1" doorway:layout_height="-1">
+        <TextView doorway:textSize="@dimen/game_over_title" doorway:textColor="#000000" doorway:gravity="11" doorway:id="@id/victory_title" doorway:layout_width="-2" doorway:layout_height="-2" doorway:text="@string/victory_title" doorway:layout_centerInParent="true" />
+        <TextView doorway:textSize="@dimen/game_over_text" doorway:textColor="#000000" doorway:gravity="11" doorway:id="@id/victory_text" doorway:paddingLeft="30dp" doorway:paddingRight="30dp" doorway:layout_width="-2" doorway:layout_height="-2" doorway:text="@string/victory_text" doorway:layout_below="@id/victory_title" doorway:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.internal.NavigationMenuItemView android:textAppearance="?attr/textAppearanceListItem" android:gravity="800013" android:paddingLeft="?attr/listPreferredItemPaddingLeft" android:paddingRight="?attr/listPreferredItemPaddingRight" android:layout_width="-1" android:layout_height="?attr/listPreferredItemHeightSmall" android:maxLines="1" android:drawablePadding="@c0003d/navigation_icon_padding" />

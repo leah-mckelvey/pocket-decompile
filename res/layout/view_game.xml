@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pocket.doorway.BoundsView doorway:id="@id/bounds" doorway:layout_width="-1" doorway:layout_height="-1">
+    <com.pocket.doorway.target.TargetView doorway:id="@id/target_red" doorway:layout_width="-2" doorway:layout_height="-2" doorway:layout_centerInParent="true" doorway:view_color="@color/pocket_red" />
+    <com.pocket.doorway.target.TargetView doorway:id="@id/target_green" doorway:layout_width="-2" doorway:layout_height="-2" doorway:layout_centerInParent="true" doorway:view_color="@color/pocket_green" />
+    <com.pocket.doorway.target.TargetView doorway:id="@id/target_blue" doorway:layout_width="-2" doorway:layout_height="-2" doorway:layout_centerInParent="true" doorway:view_color="@color/pocket_blue" />
+    <com.pocket.doorway.target.TargetView doorway:id="@id/target_gold" doorway:layout_width="-2" doorway:layout_height="-2" doorway:layout_centerInParent="true" doorway:view_color="@color/pocket_gold" />
+    <com.pocket.doorway.vortex.VortexView doorway:id="@id/vortex_red" doorway:layout_width="-1" doorway:layout_height="-1" doorway:view_color="@color/pocket_red" />
+    <com.pocket.doorway.vortex.VortexView doorway:id="@id/vortex_gold" doorway:layout_width="-1" doorway:layout_height="-1" doorway:view_color="@color/pocket_gold" />
+    <com.pocket.doorway.vortex.VortexView doorway:id="@id/vortex_blue" doorway:layout_width="-1" doorway:layout_height="-1" doorway:view_color="@color/pocket_blue" />
+    <com.pocket.doorway.vortex.VortexView doorway:id="@id/vortex_green" doorway:layout_width="-1" doorway:layout_height="-1" doorway:view_color="@color/pocket_green" />
+</com.pocket.doorway.BoundsView>

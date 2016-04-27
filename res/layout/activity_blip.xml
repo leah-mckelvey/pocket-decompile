@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout doorway:id="@id/root" doorway:background="#000000" doorway:layout_width="-1" doorway:layout_height="-1">
+    <com.pocket.doorway.BlipView doorway:id="@id/blip" doorway:layout_width="-1" doorway:layout_height="-1" />
+</RelativeLayout>
